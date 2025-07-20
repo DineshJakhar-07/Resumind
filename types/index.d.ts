@@ -48,7 +48,7 @@ interface Feedback {
     }[];
   };
   skills: {
-    score: number;
+    score: number; 
     tips: {
       type: "good" | "improve";
       tip: string;
